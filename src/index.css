@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: synthwave --default, dark --prefersdark, halloween, aqua;
+}
+@custom-variant dark (&:where(.dark, .dark *));
