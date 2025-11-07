@@ -121,7 +121,7 @@ const About = () => {
               {All.map((other, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="tooltip" data-tip={other.expertise}>
                     <div className="text-6xl mb-2">{other.icon}</div>
@@ -138,7 +138,7 @@ const About = () => {
               {Languages.map((language, index) => (
                 <li
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="text-6xl mb-2">{language.icon}</div>
                   <span className="mt-2 font-semibold">{language.name}</span>
@@ -153,7 +153,7 @@ const About = () => {
               {Frontend.map((frontend, index) => (
                 <li
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="text-6xl mb-2">{frontend.icon}</div>
                   <span className="mt-2 font-semibold">{frontend.name}</span>
@@ -168,7 +168,7 @@ const About = () => {
               {Backend.map((backend, index) => (
                 <li
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="text-6xl mb-2">{backend.icon}</div>
                   <span className="mt-2 font-semibold">{backend.name}</span>
@@ -183,7 +183,7 @@ const About = () => {
               {Databases.map((database, index) => (
                 <li
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="text-6xl mb-2">{database.icon}</div>
                   <span className="mt-2 font-semibold">{database.name}</span>
@@ -198,7 +198,7 @@ const About = () => {
               {Tools.map((tool, index) => (
                 <li
                   key={index}
-                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-primary hover:scale-y-105`}
+                  className={`flex flex-col items-center p-4 border rounded-lg hover:shadow-lg transition duration-300 hover:shadow-info hover:scale-y-105`}
                 >
                   <div className="text-6xl mb-2">{tool.icon}</div>
                   <span className="mt-2 font-semibold">{tool.name}</span>

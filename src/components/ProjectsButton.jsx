@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 const ProjectsButton = () => {
   return (
     <div>
-      <Link to="skills" smooth={true} duration={500} className=" btn btn-primary btn-outline btn-circle animate-bounce">
+      <Link to="skills" smooth={true} duration={500} className=" btn btn-info btn-outline btn-circle animate-bounce">
         <FaArrowDown />
       </Link>
     </div>

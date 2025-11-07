@@ -104,14 +104,14 @@ export default function Projects() {
                 >
                   <a
                     href={project.github_link}
-                    className={`btn btn-primary ${
+                    className={`btn btn-info ${
                       project.link ? `w-[50%]` : `btn-block`
                     }`}
                   >
                     <FaGithub /> Link
                   </a>
                   {project.link ? (
-                    <a href={project.link} className="btn btn-primary w-[50%]">
+                    <a href={project.link} className="btn btn-info w-[50%]">
                       View Link
                     </a>
                   ) : (

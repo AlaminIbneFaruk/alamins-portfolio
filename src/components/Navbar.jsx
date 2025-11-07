@@ -11,7 +11,7 @@ const Navbar = () => {
             smooth={true}
             duration={800}
             offset={-70} // adjust for navbar height
-            className="cursor-pointer hover:text-blue-400 text-lg"
+            className="cursor-pointer hover:text-blue-800 text-lg"
           >
             My Portfolio
           </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 smooth={true}
                 duration={800}
                 offset={-70} // adjust for navbar height
-                className="cursor-pointer hover:text-blue-400"
+                className="cursor-pointer hover:text-blue-800"
               >
                 {" "}
                 Home
@@ -35,8 +35,8 @@ const Navbar = () => {
                 to="skills"
                 smooth={true}
                 duration={500}
-                offset={-20} // adjust for navbar height
-                className="cursor-pointer hover:text-blue-400"
+                offset={-40} // adjust for navbar height
+                className="cursor-pointer hover:text-blue-800"
               >
                 Skills
               </Link>
@@ -46,8 +46,8 @@ const Navbar = () => {
                 to="projects"
                 smooth={true}
                 duration={400}
-                offset={-20} // adjust for navbar height
-                className="cursor-pointer hover:text-blue-400"
+                offset={-80} // adjust for navbar height
+                className="cursor-pointer hover:text-blue-800"
               >
                 Projects
               </Link>
@@ -57,8 +57,8 @@ const Navbar = () => {
                 to="contact"
                 smooth={true}
                 duration={800}
-                offset={-20} // adjust for navbar height
-                className="cursor-pointer hover:text-blue-400"
+                offset={-80} // adjust for navbar height
+                className="cursor-pointer hover:text-blue-800"
               >
                 {" "}
                 Contact
@@ -69,8 +69,8 @@ const Navbar = () => {
                 to="resume"
                 smooth={true}
                 duration={800}
-                offset={-20} // adjust for navbar height
-                className="cursor-pointer hover:text-blue-400"
+                offset={-80} // adjust for navbar height
+                className="cursor-pointer hover:text-blue-800"
               >
                 {" "}
                 Resume

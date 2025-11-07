@@ -2,16 +2,15 @@ import "./App.css";
 import GridLines from "react-gridlines";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import MouseTrail from "./components/MouseTrail";
-import ProgressBar from "./components/ProgressBar";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ContactUS from "./components/ContactUS";
+import Resume from "./components/Resume";
 
 function App() {
   return (
     <div>
       <div className="App relative min-h-screen overflow-hidden">
-        <ProgressBar />
         <div className="absolute inset-0 z-0 opacity-10">
           <GridLines
             cellWidth={10}
@@ -20,14 +19,14 @@ function App() {
             className="grid-area w-full h-full"
           ></GridLines>
         </div>
-        <div className="absolute inset-0 z-0">
-          <MouseTrail />
-        </div>
+
         <Navbar />
         <Hero />
       </div> 
       <Skills/>
       <Projects/>
+      <ContactUS/>
+      <Resume/>
     </div>
   );
 }
